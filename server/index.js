@@ -8,10 +8,13 @@ const handle = nextApp.getRequestHandler() //part of next config
 
 nextApp.prepare().then(() => {
     // express code here
+
     const app = express()
+    app.get('/asd', function (req, res) {
+        res.send('Hello World!');
+    });
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
-    app.use('/api/photos', require('./routes/index'))
     app.get('*', (req,res) => {
         return handle(req,res) // for all the react stuff
     })
