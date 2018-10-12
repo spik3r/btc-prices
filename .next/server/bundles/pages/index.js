@@ -81,7 +81,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navbar__ = __webpack_require__("./components/Navbar.js");
-var _jsxFileName = "/Users/turgut.genc/Documents/IntelliJProjekte/btc-prices/components/Layout.js";
+var _jsxFileName = "/Users/kaitait/code/react/btc-prices/components/Layout.js";
 
 
 
@@ -135,7 +135,7 @@ var Layout = function Layout(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/turgut.genc/Documents/IntelliJProjekte/btc-prices/components/Navbar.js";
+var _jsxFileName = "/Users/kaitait/code/react/btc-prices/components/Navbar.js";
 
 
 
@@ -220,7 +220,7 @@ var Navbar = function Navbar() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/Users/turgut.genc/Documents/IntelliJProjekte/btc-prices/components/Prices.js";
+var _jsxFileName = "/Users/kaitait/code/react/btc-prices/components/Prices.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -355,7 +355,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Layout__ = __webpack_require__("./components/Layout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Prices__ = __webpack_require__("./components/Prices.js");
 
-var _jsxFileName = "/Users/turgut.genc/Documents/IntelliJProjekte/btc-prices/pages/index.js";
+var _jsxFileName = "/Users/kaitait/code/react/btc-prices/pages/index.js";
 
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } } function _next(value) { step("next", value); } function _throw(err) { step("throw", err); } _next(); }); }; }

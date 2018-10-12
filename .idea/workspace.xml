@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9560f78-03df-4c7b-8202-dd4a1b5e273d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
@@ -11,55 +9,21 @@
       <change beforePath="$PROJECT_DIR$/.next/bundles/pages/_app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/bundles/pages/_app.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/bundles/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/bundles/pages/_error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/bundles/pages/_error.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/bundles/pages/_error.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/bundles/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/bundles/pages/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/bundles/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/bundles/pages/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/bundles/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/bundles/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/bundles/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/bundles/pages/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/commons/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/commons/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/commons/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/commons/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/commons/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/commons/manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/commons/manifest.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/commons/manifest.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/HelloExpress.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/HelloExpress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/async.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/component.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/php/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/php/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/php/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/src/eventsource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/src/eventsource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/src/eventsource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/src/eventsource.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/bla.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/bla.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/events/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/eventsource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/eventsource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/fetch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/fetch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/nodechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/nodechat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/qunit.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/qunit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/qunit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/simple/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/simple/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/simple/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/simple/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/stop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/stop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-source-polyfill/tests/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,85 +39,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="8" />
-          <entry key="json" value="3" />
-          <entry key="lock" value="1" />
+          <entry key="js" value="18" />
+          <entry key="json" value="4" />
+          <entry key="lock" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="8" />
-          <entry key="yarn.lock" value="1" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="18" />
+          <entry key="yarn.lock" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="52" />
+          <entry key="js" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="146" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="btcChart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/btcChart.js">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/HelloExpress.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="turgut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/turgut.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Navbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Navbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -170,6 +86,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chartData</find>
+      <find>mong</find>
+      <find>mongoose</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
         <option value="$PROJECT_DIR$/components/Prices.js" />
         <option value="$PROJECT_DIR$/components/LineChart.js" />
@@ -196,8 +113,9 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/endpoints/HelloExpress.js" />
         <option value="$PROJECT_DIR$/pages/turgut.js" />
-        <option value="$PROJECT_DIR$/api/HelloExpress.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/api/HelloExpress.js" />
       </list>
     </option>
   </component>
@@ -226,8 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,24 +160,20 @@
             <path>
               <item name="btc-prices" type="b2602c69:ProjectViewProjectNode" />
               <item name="btc-prices" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="btc-prices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="btc-prices" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539336225771" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539339475526" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -287,57 +200,29 @@
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -369,47 +254,47 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23874000" />
+    <option name="totallyTimeSpent" value="24532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33333334" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Quick Notes" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27755103" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Quick Notes" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,127 +304,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/btcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/btcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/btcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/BtcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/MyComponent.js" />
-    <entry file="file://$PROJECT_DIR$/components/Chart.java" />
-    <entry file="file://$PROJECT_DIR$/components/BtcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Prices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/jon2.js" />
-    <entry file="file://$PROJECT_DIR$/pages/jon.js" />
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/btcChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/MyComponent.js" />
     <entry file="file://$PROJECT_DIR$/components/Chart.java" />
     <entry file="file://$PROJECT_DIR$/components/BtcChart.js">
@@ -579,16 +343,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$PROJECT_DIR$/pages/index.js">
@@ -602,16 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/HelloExpress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -622,10 +368,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/HelloExpress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>

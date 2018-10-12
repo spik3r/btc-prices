@@ -15,6 +15,8 @@ nextApp.prepare().then(() => {
     });
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
+    app.use('/api/express');
+
     app.get('*', (req,res) => {
         return handle(req,res) // for all the react stuff
     })
