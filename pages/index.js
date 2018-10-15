@@ -20,6 +20,6 @@ Index.getInitialProps = async function() {
     return {
         bpi: data.bpi
     };
-}
+};
 
 export default Index;

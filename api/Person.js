@@ -1,7 +1,8 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 
-var data = [{id:1, name: "one"},{id: 2, name: "two"}];
+var data = [{id:1, name: "one"},
+    {id: 2, name: "two"}];
 
 router.get('/data', function(req, res){
     res.json(data);
@@ -9,6 +10,10 @@ router.get('/data', function(req, res){
 
 router.get('/hello', function(req, res){
     res.send("Hello World!");
+});
+
+router.get('/', function(req, res){
+    res.send("Some Person...");
 });
 
 module.exports = router;

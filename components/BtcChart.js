@@ -1,7 +1,6 @@
-import React from 'react'
-import LineChart from 'react-svg-line-chart'
+import React from 'react';
 
-const data = []
+const data = [];
 
 for (let x = 1; x <= 30; x++) {
     data.push({ x: x, y: Math.floor(Math.random() * (100)) })

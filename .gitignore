@@ -23,4 +23,5 @@ chrome-user-data
 *.swp
 *.swo
 yarn.lock
-yarn-error.logyarn
+yarn-error.log
+.next
