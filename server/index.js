@@ -5,9 +5,8 @@ const PORT = process.env.PORT || 3000
 const dev = process.env.NODE_DEV !== 'production' //true false
 const app = next({ dev })
 const handle = app.getRequestHandler() //part of next config
-// const router = express.Router()
-var foo = require("../api/foo.js")
 var Person = require("../api/Person")
+var Foo = require("../api/Foo")
 
 app.prepare().then(() => {
     // express code here
@@ -19,6 +18,10 @@ app.prepare().then(() => {
 
     server.get('/api/person', (req, res) => {
         res.send(Person());
+    });
+
+    server.get('/api/foo', (req, res) => {
+        res.send(Foo());
     });
 
     server.use(bodyParser.json());
