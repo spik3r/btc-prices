@@ -17,9 +17,7 @@ app.prepare().then(() => {
 
     server.use('/hello', require("../api/Person"));
 
-    server.get('/api/foo', (req, res) => {
-        res.send(Foo());
-    });
+    server.use('/foo', require("../api/Foo"));
 
     server.use(bodyParser.json());
     server.use(bodyParser.urlencoded({ extended: true }));
