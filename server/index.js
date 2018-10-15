@@ -5,7 +5,6 @@ const PORT = process.env.PORT || 3000
 const dev = process.env.NODE_DEV !== 'production' //true false
 const app = next({ dev })
 const handle = app.getRequestHandler() //part of next config
-var Person = require("../api/Person")
 var Foo = require("../api/Foo")
 
 app.prepare().then(() => {
@@ -14,10 +13,6 @@ app.prepare().then(() => {
     const server = express()
     server.get('/asd', function (req, res) {
         res.send('Hello World!');
-    });
-
-    server.get('/api/person', (req, res) => {
-        res.send(Person());
     });
 
     server.use('/hello', require("../api/Person"));

@@ -6,7 +6,8 @@ module.exports = function(){
     return data;
 };
 
-router.get('/a', (req, res) => {
-        return data;
-
+router.get('/', function(req, res){
+    res.send('GET route on things.');
 });
+
+module.exports = router;
