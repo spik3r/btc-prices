@@ -3,24 +3,31 @@ const next = require('next')
 const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3000
 const dev = process.env.NODE_DEV !== 'production' //true false
-const nextApp = next({ dev })
-const handle = nextApp.getRequestHandler() //part of next config
+const app = next({ dev })
+const handle = app.getRequestHandler() //part of next config
+// const router = express.Router()
+var foo = require("../api/foo.js")
+var Person = require("../api/Person")
 
-nextApp.prepare().then(() => {
+app.prepare().then(() => {
     // express code here
 
-    const app = express()
-    app.get('/asd', function (req, res) {
+    const server = express()
+    server.get('/asd', function (req, res) {
         res.send('Hello World!');
     });
-    app.use(bodyParser.json());
-    app.use(bodyParser.urlencoded({ extended: true }));
-    app.use('/api/express');
 
-    app.get('*', (req,res) => {
+    server.get('/api/person', (req, res) => {
+        res.send(Person());
+    });
+
+    server.use(bodyParser.json());
+    server.use(bodyParser.urlencoded({ extended: true }));
+
+    server.get('*', (req,res) => {
         return handle(req,res) // for all the react stuff
     })
-    app.listen(PORT, err => {
+    server.listen(PORT, err => {
         if (err) throw err;
         console.log(`ready at http://localhost:${PORT}`)
     })
