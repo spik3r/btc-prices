@@ -20,6 +20,8 @@ app.prepare().then(() => {
         res.send(Person());
     });
 
+    server.use('/hello', require("../api/Person"));
+
     server.get('/api/foo', (req, res) => {
         res.send(Foo());
     });
