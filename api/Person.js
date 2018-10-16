@@ -20,10 +20,11 @@ router.get('/', function(req, res){
     res.send("Some Person...");
 });
 
-router.get('/dynamic_view/:name/:link', function(req, res){
-    res.render('testview', {
-        name: req.params.name,
-        url: req.params.link
+router.get('/dynamic_view/:sum1/:sum2', function(req, res){
+    res.render('content', {
+        sum1: req.params.sum1,
+        sum2: req.params.sum2,
+        total: (req.params.sum1 + req.params.sum2)
     });
 });
 
