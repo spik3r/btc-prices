@@ -7,7 +7,22 @@ const app = next({ dev })
 const handle = app.getRequestHandler() //part of next config
 var Foo = require("../api/Foo")
 
+const Logger = require("log4bro");
+
+const options = {
+    productionMode: false, //switches loglevel between DEBUG and WARN
+    logDir: "logs", //relative directory to write log file to
+    silence: false, //silences logger
+    loggerName: "dev", //ignore
+    dockerMode: true, //disables output to logfile
+    varKey: "LOG" //name of global variable
+};
+
+
+
 app.prepare().then(() => {
+
+    const logger = new Logger(options);
     // express code here
 
     const server = express()
@@ -31,6 +46,10 @@ app.prepare().then(() => {
     })
     server.listen(PORT, err => {
         if (err) throw err;
-        console.log(`ready at http://localhost:${PORT}`)
+        console.log(`ready at http://localhost:${PORT}`);
+        LOG.info("ready at http://localhost:${PORT}");
+
+        const a = "fooBar";
+        LOG.warn(`something ${a} went wrong `)
     })
 })

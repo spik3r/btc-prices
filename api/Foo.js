@@ -21,11 +21,13 @@ const foo = {
 
 
 router.get('/', function(req, res){
+    LOG.info("foo called");
     res.json(foo);
 });
 
 router.get('/data', function(req, res){
     var requestId = req.query.id;
+    LOG.info(`/foo/data called with id: ${requestId}`);
     res.json(getFooById(data, requestId));
 });
 

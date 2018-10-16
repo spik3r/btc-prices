@@ -12,6 +12,9 @@ const Navbar = () => (
                     <li className="nav-item">
                         <Link href="/btcChart"><a className="nav-link">BTC Chart</a></Link>
                     </li>
+                    <li className="nav-item">
+                        <Link href="/turgut"><a className="nav-link">Turgut</a></Link>
+                    </li>
                 </ul>
             </div>
         </div>
