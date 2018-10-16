@@ -11,6 +11,10 @@ app.prepare().then(() => {
     // express code here
 
     const server = express()
+
+    server.set('view engine', 'pug');
+    server.set('views','./pages');
+
     server.get('/asd', function (req, res) {
         res.send('Hello World!');
     });
