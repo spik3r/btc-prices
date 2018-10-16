@@ -34,6 +34,8 @@ app.prepare().then(() => {
         res.send('Hello World!');
     });
 
+    server.use('/api/secure', require("../api/secure"));
+
     server.use('/api/person', require("../api/Person"));
 
     server.use('/api/foo', require("../api/Foo"));
@@ -51,5 +53,8 @@ app.prepare().then(() => {
 
         const a = "fooBar";
         LOG.warn(`something ${a} went wrong `)
+
+        const someParam = "any old variable";
+        LOG.info(`foo happned with parameter ${someParam}`);
     })
 })

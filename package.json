@@ -16,6 +16,7 @@
     "chart.js": "^2.7.2",
     "express": "^4.16.4",
     "isomorphic-unfetch": "^2.1.1",
+    "jsonwebtoken": "^8.3.0",
     "log4bro": "^3.7.1",
     "next": "^6.1.2",
     "react": "^16.5.1",
