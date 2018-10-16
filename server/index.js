@@ -15,9 +15,11 @@ app.prepare().then(() => {
     server.set('view engine', 'pug');
     server.set('views','./pages');
 
-    server.get('/asd', function (req, res) {
-        res.send('Hello World!');
-    });
+    server.get('/p/:id', (req, res) => {
+        const actualPage = '/turgut'
+        const queryParams = { id: req.params.id }
+        app.render(req, res, actualPage, queryParams)
+    })
 
     server.use('/api/person', require("../api/Person"));
 

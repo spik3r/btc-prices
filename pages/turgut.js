@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
 
-const Turgut = () => (
+const Turgut = (props) => (
 
     <Layout>
         <div>
-            <h1>Hallo Turgut</h1>
+            <h1>{this.props.id}</h1>
         </div>
     </Layout>
 );
