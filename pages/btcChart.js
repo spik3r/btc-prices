@@ -8,6 +8,11 @@ const BtcChart = (props) => (
         <h1>About BTC-prices</h1>
             <p>BTC chart showing the price over the last 30 days.
             </p>
+        <p>
+            keys {props.bla}
+        <br/>
+            values {props.alb}
+        </p>
         <Chart btcData={props.btcData} />
     </Layout>
 );
@@ -17,6 +22,14 @@ BtcChart.getInitialProps = async function() {
     const data = await res.json();
     const keyss = Object.keys(data.bpi);
     const valuess = Object.values(data.bpi);
+
+    const res2 = await fetch('http://localhost:3000/admin/health');
+    const data2 = await res2.json();
+    const blakeys = Object.keys(data2);
+    const bla = blakeys[0];
+    const alb = Object.values(data2)[0];
+
+
 
     const btcData = {
         labels: keyss,
@@ -38,7 +51,9 @@ BtcChart.getInitialProps = async function() {
     };
 
     return {
-        btcData: btcData
+        btcData: btcData,
+        bla: bla,
+        alb: alb
     };
 };
 

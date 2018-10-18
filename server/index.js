@@ -30,8 +30,8 @@ app.prepare().then(() => {
     server.set('view engine', 'pug');
     server.set('views','./pages');
 
-    server.get('/asd', function (req, res) {
-        res.send('Hello World!');
+    server.get('/admin/health', function (req, res) {
+        res.send('{"status":"UP","details":{"diskSpace":{"status":"UP","details":{"total":40045666304,"free":23265771520,"threshold":10485760}},"redis":{"status":"UP","details":{"version":"3.0.7"}},"db":{"status":"UP","details":{"database":"PostgreSQL","hello":1}},"refreshScope":{"status":"UP"},"hystrix":{"status":"UP"}}}');
     });
 
     server.use('/api/secure', require("../api/secure"));
