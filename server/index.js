@@ -5,7 +5,6 @@ const PORT = process.env.PORT || 3000
 const dev = process.env.NODE_DEV !== 'production' //true false
 const app = next({ dev })
 const handle = app.getRequestHandler() //part of next config
-var Foo = require("../api/Foo")
 
 const Logger = require("log4bro");
 
@@ -35,6 +34,7 @@ app.prepare().then(() => {
     });
 
     server.use('/api/secure', require("../api/secure"));
+    server.use('/api/headers', require("../api/Headers"));
 
     server.use('/api/person', require("../api/Person"));
 

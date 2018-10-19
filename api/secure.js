@@ -4,6 +4,8 @@ const router = express.Router();
 
 
 router.get('/api', (req, res) => {
+    LOG.info("request headers: " + JSON.stringify(req.headers));
+    console.log(JSON.stringify(req.headers));
     res.json({
         message: 'Welcome to the API',
         info: 'send a request to http://localhost:3000/api/secure/login',
@@ -12,6 +14,8 @@ router.get('/api', (req, res) => {
 });
 
 router.post('/posts', verifyToken, (req, res) => {
+    LOG.info("request headers: " + JSON.stringify(req.headers));
+    console.log(JSON.stringify(req.headers));
     jwt.verify(req.token, 'secretkey', (err, authData) => {
         if(err) {
             res.sendStatus(403);
