@@ -20,7 +20,6 @@ const options = {
 
 
 app.prepare().then(() => {
-
     const logger = new Logger(options);
     // express code here
 
@@ -35,6 +34,7 @@ app.prepare().then(() => {
 
     server.use('/api/secure', require("../api/secure"));
     server.use('/api/headers', require("../api/Headers"));
+    server.use('/api/cls', require("../api/CLS"));
 
     server.use('/api/person', require("../api/Person"));
 
