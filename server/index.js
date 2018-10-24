@@ -5,7 +5,6 @@ const PORT = process.env.PORT || 3000
 const dev = process.env.NODE_DEV !== 'production' //true false
 const app = next({ dev })
 const handle = app.getRequestHandler() //part of next config
-
 const Logger = require("log4bro");
 
 const options = {
@@ -17,13 +16,11 @@ const options = {
     varKey: "LOG" //name of global variable
 };
 
-
-
 app.prepare().then(() => {
     const logger = new Logger(options);
     // express code here
 
-    const server = express()
+    const server = express();
 
     server.set('view engine', 'pug');
     server.set('views','./pages');
@@ -32,9 +29,16 @@ app.prepare().then(() => {
         res.send('{"status":"UP","details":{"diskSpace":{"status":"UP","details":{"total":40045666304,"free":23265771520,"threshold":10485760}},"redis":{"status":"UP","details":{"version":"3.0.7"}},"db":{"status":"UP","details":{"database":"PostgreSQL","hello":1}},"refreshScope":{"status":"UP"},"hystrix":{"status":"UP"}}}');
     });
 
+    server.get('/checkout', function (req, res) {
+        res.setHeader('aaa', 'blah');
+        res.setHeader('qqq', 'foobar');
+        res.send('{"status":"UP","details": "some JSON"}');
+    });
+
     server.use('/api/secure', require("../api/secure"));
     server.use('/api/headers', require("../api/Headers"));
     server.use('/api/cls', require("../api/CLS"));
+    server.use('/api/loki', require("../api/lokijs"));
 
     server.use('/api/person', require("../api/Person"));
 

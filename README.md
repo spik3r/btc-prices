@@ -39,3 +39,6 @@ yarn dev
 #### jsonwebtoken
 - `npm i jsonwebtoken`
 
+#### lokijs
+- `npm i lokijs`
+

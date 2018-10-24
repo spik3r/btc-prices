@@ -4,40 +4,32 @@ require('isomorphic-fetch');
 const express = require('express');
 const router = express.Router();
 
-var createNamespace = require('continuation-local-storage').createNamespace;
-var namespace = createNamespace('my session');
-
-
 const db = require('../server/database');
-var incoming = null;
+// var incoming = null;
 db.loadDatabase({}, function () {
     console.log("loaded db");
 });
-    incoming = db.getCollection('incoming');
-    outgoing = db.getCollection('outgoing');
+var outgoing = db.getCollection('outgoing');
+var incoming = db.getCollection('incoming');
 
 router.get('/', async function(req, res){
     // console.table(req.headers);
-    saveHeadar("req.headers");
-    return res.send("Saved!");
+    incoming.insert({correlationId : "abc123", header: 'header-foo'});
+    incoming.insert({correlationId : "qwerty666", header: 'header-bar'});
+    outgoing.insert({correlationId : "argh9876", header: 'aaa bbbb ccccc'});
+    db.saveDatabase();
+
+    return res.send("loki saved");
 });
 
 router.get('/list', async function(req, res){
-        let hedar = getHeadar('name');
-        return res.send("... retrieved! " + hedar);
-});
-
-router.get('/fromloki', async function(req, res){
-
-    var hdr = incoming.find({correlationId: "qwerty666"});
-    var hdr2 = outgoing.find({correlationId: "argh9876"});
-    var rawObject = hdr[0];
-    var rawObject2 = hdr2[0];
-    var jsonString = JSON.stringify(rawObject);
-    var jsonString2 = JSON.stringify(rawObject2);
-    console.log('hdr: ' + jsonString);
-    console.log('hdr2: ' + jsonString2);
-    return res.send("... retrieved! " +rawObject['header']);
+        var hdr = incoming.find({correlationId: "abc123"});
+        var a = hdr[0];
+        var b = JSON.stringify(hdr[0]);
+        console.log("count: " + incoming.count());
+        console.log('a: ' + a);
+        console.log('hdr: ' + b);
+        return res.send("... retrieved! " +a['header']);
 });
 
 function saveHeadar(headars) {

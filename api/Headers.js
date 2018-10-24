@@ -22,6 +22,17 @@ router.get('/asdf', function(req, res){
     res.send(JSON.stringify({ a: 1 }));
 });
 
+router.get('/juergen', async function(req, res){
+    var qwerty = await juergen();
+    console.log(qwerty);
+
+});
+
+async function juergen() {
+    const res2 = await fetch('http://localhost:3000/checkout');
+    return res2;
+}
+
 function printHeaders(headers) {
     for (var header in headers) {
             console.log(header + " -> " + headers[header]);
