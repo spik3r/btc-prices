@@ -1,11 +1,12 @@
-const express = require('express')
-const next = require('next')
-const bodyParser = require('body-parser')
-const PORT = process.env.PORT || 3000
-const dev = process.env.NODE_DEV !== 'production' //true false
-const app = next({ dev })
-const handle = app.getRequestHandler() //part of next config
+const express = require('express');
+const next = require('next');
+const bodyParser = require('body-parser');
+const PORT = process.env.PORT || 3000;
+const dev = process.env.NODE_DEV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
 const Logger = require("log4bro");
+
 
 const options = {
     productionMode: false, //switches loglevel between DEBUG and WARN
@@ -35,14 +36,14 @@ app.prepare().then(() => {
         res.send('{"status":"UP","details": "some JSON"}');
     });
 
-    server.use('/api/secure', require("../api/secure"));
-    server.use('/api/headers', require("../api/Headers"));
-    server.use('/api/cls', require("../api/CLS"));
-    server.use('/api/loki', require("../api/lokijs"));
+    server.use('/api/secure', require('./api/secure'));
+    server.use('/api/headers', require("./api/Headers"));
+    server.use('/api/cls', require("./api/CLS"));
+    server.use('/api/loki', require("./api/lokijs"));
 
-    server.use('/api/person', require("../api/Person"));
+    server.use('/api/person', require("./api/Person"));
 
-    server.use('/api/foo', require("../api/Foo"));
+    server.use('/api/foo', require("./api/Foo"));
 
     server.use(bodyParser.json());
     server.use(bodyParser.urlencoded({ extended: true }));
@@ -50,9 +51,9 @@ app.prepare().then(() => {
     server.get('*', (req,res) => {
         return handle(req,res) // for all the react stuff
     });
-
-    server.get(/next/, (req,res)=> { console.log("next"); handle(req,res); });
-    server.get(/webpack/, (req,res)=> { console.log("webpack"); handle(req,res); });
+    //
+    // server.get(/next/, (req,res)=> { console.log("next"); handle(req,res); });
+    // server.get(/webpack/, (req,res)=> { console.log("webpack"); handle(req,res); });
 
     server.listen(PORT, err => {
         if (err) throw err;
